@@ -1,0 +1,13 @@
+# Repository-wide Python virtual environments
+.venv/
+**/.venv/
+
+# Repository-wide macOS/Finder metadata
+.DS_Store
+**/.DS_Store
+
+# Repository-wide local environment secrets
+.env
+.env.*
+**/.env
+**/.env.*
