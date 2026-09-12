@@ -11,3 +11,37 @@
 .env.*
 **/.env
 **/.env.*
+
+# Python caches and local tooling artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.tox/
+.nox/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.uv/
+
+# Other common local secret material
+.secrets
+*.pem
+*.key
+
+# Editor-specific local settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local datasets and generated databases
+**/data/
+*.csv
+*.pdf
+*.sqlite
+*.sqlite3

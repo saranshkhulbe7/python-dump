@@ -1,0 +1,10 @@
+deepagents
+langchain
+langchain_community
+langchain-openai
+ipykernel
+tavily-python
+python-dotenv
+beautifulsoup4
+langchain-text-splitters
+pandas

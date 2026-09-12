@@ -1,0 +1,18 @@
+[project]
+name = "rag-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "docx2txt",
+    "langchain",
+    "langchain-community",
+    "langchain-openai",
+    "langchain-qdrant",
+    "langchain-text-splitters",
+    "langsmith",
+    "pypdf",
+    "python-dotenv",
+    "qdrant-client",
+]
